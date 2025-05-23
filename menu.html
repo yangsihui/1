@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>街角咖啡屋 - 饮品菜单</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">街角咖啡屋</div>
+            <ul class="nav-list">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="menu.html">饮品菜单</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+                <li><a href="reservation.html">在线订位</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu-page">
+            <h2>全品类饮品菜单</h2>
+            <div class="tab-container">
+                <button class="tab-btn active" data-tab="coffee">咖啡系列</button>
+                <button class="tab-btn" data-tab="tea">茶饮品</button>
+                <button class="tab-btn" data-tab="dessert">甜点</button>
+
+                <div class="tab-content active" id="coffee">
+                    <div class="menu-item">卡布奇诺</div>
+                    <div class="menu-item">美式咖啡</div>
+                </div>
+
+                <div class="tab-content" id="tea">
+                    <div class="menu-item">柠檬红茶</div>
+                    <div class="menu-item">蜜桃乌龙茶</div>
+                </div>
+
+                <div class="tab-content" id="dessert">
+                    <div class="menu-item">芝士蛋糕</div>
+                    <div class="menu-item">提拉米苏</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>版权所有 &copy; 2025 街角咖啡屋 | 学号：24300306 姓名：杨思慧</p>
+    </footer>
+
+    <script src="js/tab.js"></script>
+</body>
+</html>

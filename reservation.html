@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>街角咖啡屋 - 在线订位</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">街角咖啡屋</div>
+            <ul class="nav-list">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="menu.html">饮品菜单</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+                <li><a href="reservation.html">在线订位</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="reservation-section">
+            <h2>座位预订</h2>
+            <form id="reservationForm">
+                <input type="date" name="date" placeholder="选择日期" required>
+                <input type="time" name="time" placeholder="选择时间" required>
+                <select name="people" required>
+                    <option value="">人数</option>
+                    <option value="1">1人</option>
+                    <option value="2">2人</option>
+                    <option value="3-4">3-4人</option>
+                </select>
+                <button type="submit">提交预订</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>版权所有 &copy; 2025 街角咖啡屋 | 学号：24300306 姓名：杨思慧</p>
+    </footer>
+
+    <script src="js/reservation.js"></script>
+</body>
+</html>
